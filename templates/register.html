@@ -1,0 +1,310 @@
+<!DOCTYPE html>{%  load  static  %}
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+
+
+
+  <title>Sign Up</title>
+  <link rel="stylesheet" type="text/css" href={% static 'css/style.css' %}>
+ <style type="text/css">
+
+   body{
+    background-color:darkgray;
+    background-repeat: no-repeat;
+   }
+   a{
+   	color:rgb(255,202,24); 
+  font-size: 25px;
+   }
+  
+}
+a.hover{
+	background-color:rgb(255,202,24); 
+  color: white;
+  font-size: 25px;
+}
+   
+   i{
+    color:rgb(255,202,24); 
+  
+   }
+   div.demo  
+{  
+width: 450px;  
+height: 550px;  
+margin: auto;  
+border: 3px solid skyblue; 
+margin-top: 25px; 
+margin-bottom: 25px;
+border-radius: 5px;  
+padding: 15px; 
+padding-top: 15px;
+
+background: transparent;
+opacity: 0.8; 
+} 
+.style  
+{  
+width: 450px;  
+height: 750px;  
+margin: auto;  
+border: 3px solid #0b1628;; 
+margin-top: 55px; 
+margin-bottom: 80px;
+border-radius: 5px;  
+padding: 15px; 
+padding-top: 10px;
+background-image:url(img/un.jpg);
+
+opacity: 0.8; 
+} 
+p{
+	color: white;
+}
+
+
+
+
+ </style>
+ 
+  </head>
+  
+  <body >
+    <header class="header-area" style="background-color: #0b1628;">
+    <div class="top-header-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="top-header-content d-flex align-items-center justify-content-between">
+                            <!-- Top Header Content -->
+                            <div class="top-header-meta">
+                                <a href="#" data-toggle="tooltip" data-placement="bottom" title="info.jadeshopping@gmail.com"><i class="fa fa-envelope-o" aria-hidden="true"></i> <span>Email: info.jadeshopping@gmail.com</span></a>
+                                <a href="#" data-toggle="tooltip" data-placement="bottom" title="+1 234 122 122"><i class="fa fa-phone" aria-hidden="true"></i> <span>Call Us: +1 234 122 122</span></a>
+                            </div>
+
+                            <!-- Top Header Content -->
+                            <div class="top-header-meta d-flex">
+                            
+                             <!-- Login -->
+                              <div class="login">
+                               <a href="/app/login"><i class="fa fa-user" aria-hidden="true"></i> <span>Login</span></a>
+                              </div>
+                              
+                              <!-- Login -->
+                              <div class="login1">
+                               <a href="/app/register"><i class="fa fa-user active" aria-hidden="true"></i> <span>
+                               Sign Up</span></a>
+                              </div>
+                              
+                              
+                             <!-- Cart -->
+                                <div class="cart">
+                                    <a href="cart.html"><i class="bi bi-cart" aria-hidden="true"></i> <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
+  <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+</svg>Cart</span></a>
+                                </div
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+<nav class="navbar navbar-expand-md bg-dark navbar-dark " style="background-color: #0b1628;">
+  <!-- Brand -->
+  <img class="rounded" src="{% static "img/logojade.png" %}">
+  
+  <!-- Toggler/collapsibe Button -->
+  <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <!-- Navbar links -->
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+        <li class="nav-item">
+        <a class="nav-link active rounded" href="hello">Home</a>
+      </li>
+      <li class="nav-item">
+        <ul class="nav nav-pills">
+  <li class="nav-item dropdown">
+    <a class="nav-link dropdown" data-toggle="dropdown" href="#">Shop</a>
+    <div class="dropdown-menu">
+      <a class="dropdown-item" href="boys.html">Boys</a>
+      <a class="dropdown-item" href="girls.html">Girls</a>
+      <a class="dropdown-item" href="kids.html">Kids</a>
+    </div>
+  </li>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+ 
+</ul>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contactus.html">Contact us</a>
+      </li>
+       &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+      <li class="nav-item">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+              <div class="input-group">
+              <div class="form-outline">
+                <input type="search" id="form1" class="form-control" placeholder="Search">
+                
+              </div>
+              <button type="button" class="btn">
+                <i class="fa fa-search"></i>
+              </button>
+            </div>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+</header>
+<br><br><br><br><br><br><br>
+<div>
+
+<center>
+    
+    <div class="container-fluid">
+ <div class="style">
+<font size="6" color="white">
+<form id="form1" name="form1" method="post" class="was-validated" action="/app/register">
+    {% csrf_token %}
+ <b>SIGN UP</b><br><br>
+  </font>
+  <div class="form-group"> 
+    <input  type="text" name="txt_fname" id="txt_fname" required pattern="[A-Z a-z 0-9 !@#$%^&*(),./]*$" autocomplete="" placeholder="First Name" class="form-control"><br>
+ 
+  
+  </div>
+  <div class="form-group"> 
+    <input  type="text" name="txt_lname" id="txt_lname" required pattern="[A-Z a-z 0-9 !@#$%^&*(),./]*$" autocomplete="" placeholder="Last Name" class="form-control"><br>
+ 
+  
+  </div>
+   <div class="form-group"> 
+    <input  type="text" name="txt_uname" id="txt_uname" required pattern="[A-Z a-z 0-9 !@#$%^&*(),./]*$" autocomplete="" placeholder="User Name" class="form-control"><br>
+ 
+  
+  </div>
+
+   <div class="form-group"> 
+    <input type="text" name="txt_email" id="txt_email" required pattern="[A-Z a-z 0-9 !@#$%^&*(),./]*$"  autocomplete="" placeholder="Email Id" class="form-control"><br>
+ 
+
+</div>
+ <div class="form-group"> 
+
+    <input type="password" name="txt_password" id="txt_password"  required pattern="[A-Z a-z 0-9 !@#$%^&*(),./]*$"  autocomplete="" placeholder="Password" class="form-control" ><br>
+   
+
+    </div>
+  <div class="form-group"> 
+    <input type="password" name="txt_conpassword" id="txt_conpassword" required pattern="[A-Z a-z 0-9 !@#$%^&*(),./]*$"  autocomplete="" placeholder="Confirm Password" class="form-control"><br>
+
+ 
+  <p>
+    <input type="checkbox" name="" id=""  >
+    I AcceptnThe Terms Of Use & Privacy Policy</p>
+ 
+<br>
+
+
+
+ 
+    <input type="submit" name="btn_submit" id="btn_submit" value="Sign Up" class="btn btn-outline-success">
+    <input type="reset" name="btn_submit" id="btn_submit" value="Cancel" class="btn btn-outline-warning">
+
+
+<br>
+
+
+
+</center>
+
+
+</div>
+</div>
+</div>
+</form>   
+
+
+<footer class="footer-area bg-color" style="background-color: #0b1628;">
+        <!-- Main Footer Area -->
+        <div class="main-footer-area">
+            <div class="container">
+                <div class="row">
+
+                    <!-- Single Footer Widget -->
+                    <div class="col-12 col-sm-6 col-lg-3">
+                        <div class="single-footer-widget">
+                            <div class="footer-logo mb-30">
+                                
+                            </div>
+                           
+                    
+                            <div class="social-info">
+
+                                <a href="https://www.facebook.com"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                <a href="https://www.twitter.com"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                                <a href="https://www.insragram.com"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                                <a href="https://www.whatsapp.com"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+               
+
+                           
+                    <!-- Single Footer Widget -->
+                   
+                    <div class="col-12 col-sm-12 col-lg-12 ">
+                        <div class="single-footer-widget">
+                            <div class="widget-title">
+                                <h5>CONTACT</h5>
+                            </div>
+
+                            <div class="contact-information" >
+                                <p><span>Address: </span>505 Silk Rd, New York</p>
+                                <p><span>Phone:</span> +1 234 122 122</p>
+                                <p><span>Email:</span> info.jadeshopping@gmail.com</p>
+                                
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer Bottom Area -->
+        <div class="footer-bottom-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="border-line"></div>
+                    </div>
+                    <!-- Copywrite Text -->
+                    <div class="col-12 col-md-6">
+                        <div class="copywrite-text">
+                            <p>&copy; 
+Copyright  All rights reserved 
+</p>
+                        </div>
+                    </div>
+                    
+                </footer>
+</body>
+</html>
+
